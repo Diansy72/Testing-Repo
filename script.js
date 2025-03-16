@@ -7,3 +7,4 @@ function getGreeting() {
     return 'Good evening!';
 }
 console.log(getGreeting());
+document.body.insertAdjacentHTML('afterbegin', '<header>Welcome home</header>');
